@@ -130,7 +130,7 @@ class Login extends React.Component {
                             consumerSecret={
                                 process.env.REACT_APP_TWITTER_CONSUMER_SECRET
                             }
-                            callbackUrl="https://mern-blog-it.herokuapp.com/login"
+                            callbackUrl="http:localhost:5000/login"
                             buttonTheme="light"
                         />
                     </div>
